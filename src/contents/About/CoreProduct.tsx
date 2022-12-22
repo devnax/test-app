@@ -2,7 +2,7 @@ import React from 'react'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
-import Container from '@mui/material/Container/Container'
+import Container from '@mui/material/Container'
 import { alpha } from '@mui/material/styles'
 import Link from 'next/link'
 

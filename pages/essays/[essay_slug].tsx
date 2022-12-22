@@ -161,7 +161,7 @@ const SingleCourse = () => {
 
    useEffect(() => {
       if (target) {
-         const spans: NodeListOf<HTMLElement> = document.querySelectorAll(`[data-mark]`)
+         const spans: any = document.querySelectorAll(`[data-mark]`)
          for (let span of spans) {
             span.classList.remove("active")
          }
@@ -175,7 +175,7 @@ const SingleCourse = () => {
    }, [target])
 
    useEffect(() => {
-      const spans: NodeListOf<HTMLElement> = document.querySelectorAll(`[data-mark]`)
+      const spans: any = document.querySelectorAll(`[data-mark]`)
       for (let span of spans) {
          const id = span.getAttribute("data-mark")
          span.onclick = () => id && setTarget(id)
