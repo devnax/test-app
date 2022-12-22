@@ -18,6 +18,24 @@
     "paths": {
       "@src/*": [
         "src/*"
+      ],
+      "@partials/*": [
+        "src/libs/*"
+      ],
+      "@libs/*": [
+        "src/libs/*"
+      ],
+      "@cmp/*": [
+        "src/components/*"
+      ],
+      "@contents/*": [
+        "src/contents/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@routers/*": [
+        "src/Routers/*"
       ]
     }
   },
